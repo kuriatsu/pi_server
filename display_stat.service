@@ -1,0 +1,10 @@
+[Unit]
+Description=display_stat
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/lib/display_stat/display_stat.py
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
