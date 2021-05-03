@@ -14,7 +14,7 @@ $ sudo apt install python3-pil
 ### Set Circuit
 
 | Display pin | GPIO |
-| -:- | -:- |
+| :-: | :-: |
 | VCC | v3.3 |
 | GND | 0 |
 | SCL |  |
